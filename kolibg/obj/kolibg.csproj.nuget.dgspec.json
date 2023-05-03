@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marte\\OneDrive\\Работен плот\\kolibg\\kolibg\\kolibg.csproj": {}
+    "C:\\Users\\Atanas\\source\\repos\\USPPROJECT\\kolibg\\kolibg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marte\\OneDrive\\Работен плот\\kolibg\\kolibg\\kolibg.csproj": {
+    "C:\\Users\\Atanas\\source\\repos\\USPPROJECT\\kolibg\\kolibg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marte\\OneDrive\\Работен плот\\kolibg\\kolibg\\kolibg.csproj",
+        "projectUniqueName": "C:\\Users\\Atanas\\source\\repos\\USPPROJECT\\kolibg\\kolibg.csproj",
         "projectName": "kolibg",
-        "projectPath": "C:\\Users\\marte\\OneDrive\\Работен плот\\kolibg\\kolibg\\kolibg.csproj",
-        "packagesPath": "C:\\Users\\marte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marte\\OneDrive\\Работен плот\\kolibg\\kolibg\\obj\\",
+        "projectPath": "C:\\Users\\Atanas\\source\\repos\\USPPROJECT\\kolibg\\kolibg.csproj",
+        "packagesPath": "C:\\Users\\Atanas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Atanas\\source\\repos\\USPPROJECT\\kolibg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Atanas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
