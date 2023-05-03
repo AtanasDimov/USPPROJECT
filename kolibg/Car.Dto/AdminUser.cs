@@ -1,13 +1,19 @@
-﻿namespace kolibg.Car.Dto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace kolibg.Car.Dto
 {
     public class AdminUser
     {
-        public string Username { get; set; }
-        public string Password { get; set; }
-        
+        [Key]
+        private int Id;
+        [Required]
+        private string Username { get; set; }
+        [Required]
+        private string Password { get; set; }
 
-        public AdminUser(string username, string password)
+        public AdminUser(int id, string username, string password)
         {
+            Id = id;
             Username = username;
             Password = password;
         }
