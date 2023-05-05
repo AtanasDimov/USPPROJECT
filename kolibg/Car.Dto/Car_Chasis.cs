@@ -2,13 +2,13 @@
 {
     public enum Car_Chasis
     {
-        Coupe,
-        Sedan,
-        Hatch,
-        Wagon,
+        Купе,
+        Седан,
+        Хечбек,
+        Комби,
         SUV,
-        Truck,
+        Пикап,
         SportBack,
-        Cabrio
+        Кабрио
     }
 }

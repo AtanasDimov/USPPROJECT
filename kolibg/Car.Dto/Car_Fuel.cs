@@ -2,9 +2,9 @@
 {
     public enum Car_Fuel
     {
-        Petrol,
-        Diesel,
+        Бензин,
+        Дизел,
         EV,
-        Hybrid
+        Хибрид
     }
 }

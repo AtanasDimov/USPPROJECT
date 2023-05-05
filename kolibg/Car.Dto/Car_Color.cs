@@ -1,6 +1,13 @@
 ﻿namespace kolibg.Car.Dto
 {
-    public class Car_Color
+    public enum Car_Color
     {
+        Сив,
+        Червен,
+        Черен,
+        Бял,
+        Розов,
+        Синьо,
+        Оранжево
     }
 }
